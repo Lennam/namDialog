@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    margin: 0;
+}
+#namDialog {
+    background: rgba(245, 245, 245, .7);
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.namDialog-box {
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    width: 20vw;
+    /* height: calc(20vw*0.5); */
+    min-width: 220px;
+    min-height: 110px;
+    max-width: 340px;
+    max-height: 170px;
+    background: white;
+    opacity: 1;
+}
+.namDialog-header, .namDialog-body, .namDialog-footer {
+    padding: 10px;
+}
+
+.namDialog-header {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.namDialog-body {
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+
+.namDialog-footer {
+    text-align: right;
+}
+
+.namDialog-btn {
+    display: inline-block;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid transparent;
+    border-color: #BBB;
+}
+
+.namDialog-btn:hover {
+    box-shadow: 0 0 5px black;
+}
