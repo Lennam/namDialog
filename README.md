@@ -15,11 +15,6 @@
  >3. 为`<button>`标签添加`showNamDialog-btn`类名，并添加自定义属性>`data-namHeader`、`data-namValue` 和`data-fn`（`data-namHeader`为弹出框的标题，`data-namValue`为弹出框的内容， `data-fn`为弹出框按钮标识，与`set`方法中的selector对应）
  >4. 实例化(例： const someName = namDialog() ）
 
-**Dialog入口**
--------
-为`<button>`标签添加
- 
-
 
 ----------
 
